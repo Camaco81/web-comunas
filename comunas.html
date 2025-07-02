@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunas</title>
+    <!-- Incluye Tailwind CSS desde CDN para estilos modernos y responsivos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Incluye Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Enlaces a Bootstrap CSS para modales (aunque usaremos Tailwind para el resto, los modales de Bootstrap son convenientes) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fuente Inter de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+       <link rel="shortcut icon" href="img/Comuna-logo.jpg" type="image/x-icon">
+ 
+</head>
+<body class="bg-gray-100">
+
+ <header class="header-bg text-white shadow-lg py-4 bg-danger">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="col-md-3 col-4 col-sm-3 "><img src="img/Comuna-logo.jpg" class="col-8 rounded-2 shadow-img"></div>
+            <h1 class="text-3xl font-bold col-5 col-md-3 col-sm-6">Comunas</h1>
+            <nav>
+                <ul class="d-flex  d-none d-md-flex d-sm-none">
+                    <div class="flex space-x-6">
+                     <li><a href="#home" class="hover:underline text-lg">Inicio</a></li>
+                    <li><a href="#historia" class="hover:underline text-lg">Historia</a></li>
+                    <li><a href="#about" class="hover:underline text-lg">Acerca de</a></li>
+                    <li><a href="#contact" class="hover:underline text-lg">Contacto</a></li>
+                    </div>
+              
+                   
+                </ul>
+
+        <ul class="d-flex d-md-none col-3 ">
+            <div class="btn-group">
+                <button type="button" class="text-white">Menu</button>
+                <button type="button" class=" dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                 <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+            <li><a href="#home" class="dropdown-item">Inicio</a></li>
+            <li><a href="#historia" class="dropdown-item">Historia</a></li>
+            <li><a href="#about" class="dropdown-item">Acerca de</a></li>
+             <li><a href="#contact" class="dropdown-item">Contacto</a></li>
+            </ul>
+            </div>       
+        </ul>
+            </nav>
+
+
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-4">
+        <section id="home" class="hero-section text-white text-center py-20 rounded-xl mb-12 header-bg shadow-img p-4">
+            <img src="img/baner-ministerio-comunas2-2.png" class="rounded-2">
+        </section>
+
+        <section id="historia" class="bg-white p-8 rounded-xl shadow-lg mb-12 card-custom col-12 col-md-12">
+            <h3 class="text-3xl font-bold text-gray-800 mb-6 text-center col-12">Historia</h3>
+         <p class="col-12">Este artículo le presenta al lector una revisión de la Comuna en la historia, experiencias negativas en
+otros países, las expectativas y su viabilidad en nuestro país en el marco del llamado Socialismo del
+Siglo XXI, impuesto por el gobierno venezolano, podríamos estar en presencia de estar viviendo
+una utopía, debido a la intervención directa del Estado o indirecta a través de los Consejos
+Comunales, encontraremos factores críticos como es la asociación espontánea y voluntaria son
+cuartados por el marco jurídico que las rige. Los primeros que vivieron en Comunas fueron los
+indígenas, donde este conglomerado de familias en su modo de vida si ejercían el poder social,
+económico y político, porque ellos hacían su propias leyes y normas de convivencia. Los Consejos
+Comunales que integraran una Comuna en sus primeras funciones cada Consejo Comunal
+ejecutaran un diagnóstico de sus principales necesidades a corto y largo plazo para tratar de lograr
+la solución a la problemáticas existente que afectan a dicha comuna. La historia nos ha demostrado
+que la Comuna es un ejercicio fallido de la igualdad… Platón, Lenin, Stalin y Mao Tse-Tung
+fracasaron en sus deseos de instalar la comuna; La comuna despoja a todo ciudadano de sus
+pertenencias, del fruto de su intelecto, de su trabajo, de sus esperanzas y de su futuro, Las comunas
+son terriblemente negativas, hambreadoras y mortales, pero sirven para lograr el control absoluto
+sobre la población, las comunas han sido un estruendoso fracaso mundial que ha llevado a la
+muerte, ruina y desastre económico a muchos países, la historia reseña la creación de la Comuna de
+París en 1871 como la secuela de la Revolución Francesa de 1789 que duró apenas 82 años,
+terminando como un rotundo fracaso que no llenó las expectativas que buscaba la revolución
+francesa; La creación de las comunas en nuestro país nacen fuera del marco legal si nos ajustamos
+a lo que establece La Constitución de la República Bolivariana de Venezuela, en los Artículos 16,
+17 y 18 señala que…”el territorio nacional se divide en el de los Estados, el del Distrito Capital, el
+de las dependencias federales y el de los territorios federales. El territorio se organiza en
+Municipios.”… lo de comunas no aparece en la Constitución, lo que supone una violación a la ley,
+otro de los proyectos de ley en discusión contempla la moneda comunal y el trueque, válido
+exclusivamente para estructuras como las comunas. 
+</p>
+       
+        </section>
+ <!-- Sección "Acerca de Nosotros" -->
+        <section id="about" class="bg-white p-8 rounded-xl shadow-lg mb-12 card-custom">
+            <h3 class="text-3xl font-bold text-gray-800 mb-6 text-center">MISIÓN, VISIÓN, OBJETIVOS Y FUNCIONES</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h4 class="text-2xl font-semibold text-blue-700 mb-3">Misión</h4>
+                    <p class="text-gray-700 leading-relaxed">
+                    Promover y consolidar la democracia participativa y protagónica, mediante la promoción y el fortalecimiento de todas aquellas expresiones organizativas y comunitarias que propicien el ejercicio de la corresponsabilidad social en la gestión pública
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-semibold text-blue-700 mb-3">Visión</h4>
+                    <p class="text-gray-700 leading-relaxed">
+                    Toda comunidad se basa en el trabajo de un conjunto de personas y se torna necesario en orientar el comportamiento de ese individuo integrado y dirigirlo rumbo a los objetivos comunales. Es por ello que los esfuerzos de los seres y todas las actividades de los diversos sectores deberán ser conjugados e integrados para el pleno alcance y rendimiento de la comunidad.
+                    </p>
+                </div>
+                    <div>
+                    <h4 class="text-2xl font-semibold text-blue-700 mb-3">Objetivos Y Responsabilidades</h4>
+                    <ul class="text-gray-700 ">
+                    <li>Articular las organizaciones de base presentes en la comunidad.</li>
+                    <li>Integrar a la comunidad garantizando su participación en la formulación de propuestas y/o proyectos.</li>
+                    <li>Convocar las Asambleas de ciudadanos y ciudadanas en la Comunidad para discutir sobre la situación política, social, económica, cultural, entre otras, en el ámbito comunal.</li>
+                    <li>Promover la creación de nuevas organizaciones de base cuando fuere necesario.</li>
+                    <li>Organizar, planificar y realizar el censo poblacional de la comunidad y mantenerlo actualizado.</li>
+                    <li>Elaborar el árbol de necesidades de la comunidad, para detectar y diagnosticar los problemas comunes a solucionar.</li> 
+                    <li>Elaborar el Plan Comunal de Desarrollo o Plan Único de Trabajo, para crear y desarrollar proyectos de mediano y largo plazo</li>
+                    <li>Informar permanentemente a la comunidad sobre el control, seguimiento y evaluación de los proyectos comunitarios.</li>
+                    <li>Entregar a los Consejos Parroquiales la jerarquización de la problemática para la inversión social anual en la comunidad.</li>
+                    <li>Promover el desarrollo cultural y turístico del ámbito de su jurisdicción</li>
+                    <li>Cooperar con las autoridades locales, en la realización de operativos colectivos en beneficio de la comunidad.</li>
+                    <li>Proteger el medio ambiente, la conservación de la naturaleza y del patrimonio histórico, así como la defensa del paisaje, la salubridad , pública y la defensa civil.</li>
+
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-semibold text-blue-700 mb-3">Funciones</h4>
+                    <ul class="text-gray-700 ">
+                    <li>Recopilar, generar y distribuir información relacionada con la participación popular.</li>
+                    <li>Cooperar en la facilitación de talleres, foros, charlas y espacios de encuentro para el impulso de la participación popular.</li>
+                    <li>Plantear a los entes gubernamentales el establecimiento de convenios de cooperación técnica que beneficien la capacitación de los actores comunitarios.</li>
+                    <li>Participar activamente en el diseño, consulta y cumplimiento de instrumentos jurídicos relacionados con la participación popular.</li>
+                    <li>Desarrollar metodologías que propicien la participación organizada de las comunidades.</li>
+                    <li>Asistir a eventos y todas aquellas actividades relacionas con el tema de la participación popular.</li> 
+                    <li>Contribuir al diseño, ejecución y control de proyectos sociales orientados a satisfacer las necesidades de las comunidades.</li> 
+
+                    </ul>
+                </div>
+            </div>
+         
+        </section>
+             <section class="bg-white p-8 rounded-xl shadow-lg mb-12 card-custom">
+       <div>
+                    <h3 class="text-3xl font-semibold mb-3 uppercase text-center">Comunas en el Muncipio Cruz Paredes</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                  El Municipio Cruz Paredes Tiene tres Parroquia que son:<br> Barrancas, El Socorro Y Masparrito. El Municipio está Conformado por 9 Comunas y 3 Circuito Comunal donde incluyen 83 Consejo Comunal. En parroquia Barrancas hay 8 Comunal y 61 Consejo Comunal, La parroquia El Socorro hay 3 Comunas y 18 Consejo Comunal, La parroquia Masparrito hay 1 Comuna y 4 Consejo Comunal. 
+                 Una Comuna pueden estar conformado de 4 asta de 15 Consejo Comunales, dependiendo de su espacio Geográfico
+                    </p>
+                </div>
+        </section>
+
+
+        <section class="hero-section text-white text-center py-20 rounded-xl mb-12 header-bg shadow-img p-4">
+            <img src="img/Comuna-logo.jpg" class="rounded-2">
+        </section>
+
+    
+    </main>
+
+    <footer class="bg-danger text-white py-4" id="contact">
+        <div class="d-flex flex-lg-row flex-column flex-md-row justify-content-center align-items-center justify-content-md-space-between col-12">
+            <ul class="my-name-2 col-lg-8 col-sm-12 d-flex justify-content-center align-items-center"><p>Comunas 2023 &copy;</p></ul>
+            <ul class="social-media-2 col-lg-4 col-sm-12 d-flex grid gap-3 list-style-none justify-content-sm-center align-items-sm-center">  
+                <li class="col-2"><a target="_blank" href="https://www.instagram.com/camaco81" class="text-decoration-none text-white"><i class="bi bi-instagram"></i></a></li>
+                <li class="col-2"><a target="_blank" href="" class="text-decoration-none text-white"><i class="bi bi-facebook"></i></a></li>
+                <li class="col-2"><a target="_blank" href="https://www.linkedin.com/in/marcos-camacho-677145298" class="text-decoration-none text-white"><i class="bi bi-telegram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
